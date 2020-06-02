@@ -86,5 +86,8 @@ module.exports = {
     */
     extend (config, ctx) {
     }
-  }
+  },
+  serverMiddleware: [
+    '~/api/pull_request'
+  ]
 }
